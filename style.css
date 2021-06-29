@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
+}
+.message-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+.message-wrapper__my-message {
+  font-size: 9rem;
+  text-align: center;
+}
